@@ -14,7 +14,7 @@ main {
     background-position: 150% top;
     #hero {
       width: 90%;
-      height: 80%;
+      height: 90%;
       margin: 0 auto;
       display: grid;
       grid-template-columns: 35% auto;
@@ -69,8 +69,8 @@ main {
         }
         .hero_product_box {
           position: absolute;
-          top: 5%;
-          left: 45%;
+          top: -10%;
+          left: 35%;
           background: rgba(58, 70, 75, 0.2);
           box-shadow: 0px 4px 51px rgba(8, 13, 10, 0.25),
             inset 50.081px -73.9292px 155.013px -7.15444px
