@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: TTnorms;
+  src: url(../src/assets/Fonts/TTNorms-Black.otf),
+    url(../src/assets/Fonts/TTNorms-Bold.otf),
+    url(../src/assets/Fonts/TTNorms-ExtraBold.otf),
+    url(../src/assets/Fonts/TTNorms-ExtraLight.otf),
+    url(../src/assets/Fonts/TTNorms-Heavy.otf),
+    url(../src/assets/Fonts/TTNorms-Light.otf),
+    url(../src/assets/Fonts/TTNorms-Regular.otf),
+    url(../src/assets/Fonts/TTNorms-Thin.otf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
