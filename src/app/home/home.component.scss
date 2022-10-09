@@ -1,0 +1,134 @@
+main {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  .heroSection {
+    width: 100%;
+    height: 100vh;
+    display: relative;
+    background: url("../../assets/Images/hero_background.png");
+    background-repeat: no-repeat;
+    background-size: 75% 100%;
+    background-position: 150% top;
+    #hero {
+      width: 90%;
+      height: 80%;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 35% auto;
+      //   justify-content: center;      align-items: center;
+      position: relative;
+      .text_sect {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h1 {
+          font-weight: medium;
+          font-size: 54px;
+          line-height: 120%;
+          width: 90%;
+        }
+        img {
+          width: 60%;
+          margin: 8px 5% 24px;
+        }
+        hr {
+          height: 2px;
+        }
+        p {
+          width: 80%;
+        }
+        .cta {
+          text-decoration: none;
+          margin: 24px 0px 0px 0px;
+          padding: 12px 16px;
+          color: #fff;
+          width: fit-content;
+          background-color: #1f443a;
+          position: relative;
+        }
+        .cta::after {
+          content: "";
+          width: 100%;
+          height: 100%;
+          background-color: none;
+          border: 1px solid #dfe4e3;
+          position: absolute;
+          z-index: -1;
+          left: 5%;
+          top: 20%;
+        }
+      }
+      .img_sect {
+        position: relative;
+        align-self: flex-end;
+        img {
+          width: 120%;
+        }
+        .hero_product_box {
+          position: absolute;
+          top: 5%;
+          left: 45%;
+          background: rgba(58, 70, 75, 0.2);
+          box-shadow: 0px 4px 51px rgba(8, 13, 10, 0.25),
+            inset 50.081px -73.9292px 155.013px -7.15444px
+              rgba(93, 112, 120, 0.04);
+          backdrop-filter: blur(40.5418px);
+          border: 2.5px solid hsla(196, 15%, 86%, 0.78);
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding: 15px 30px 15px 15px;
+          width: fit-content;
+          .hp_img {
+            width: 100px;
+            height: 100px;
+            margin-right: 16px;
+          }
+          .hpbContent {
+            .title {
+              font-size: 24px;
+              font-weight: 600;
+            }
+            .category {
+              color: #d5e1de;
+            }
+            .price {
+              color: #0c1b17;
+              font-size: 24px;
+              font-weight: bold;
+              margin: 0 4px;
+            }
+            .last_row {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              #color_boxes {
+                display: flex;
+                flex-direction: row;
+                margin-right: 16px;
+                .color_indicator {
+                  width: 18px;
+                  height: 18px;
+                  border-radius: 10px;
+                  margin: 0px 4px;
+                }
+                .color_indicator:first-of-type {
+                  background-color: #927e73;
+                }
+                .color_indicator:nth-of-type(2) {
+                  background-color: #c32e1a;
+                }
+                .color_indicator:last-of-type {
+                  background-color: #0c957c;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

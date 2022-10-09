@@ -1,0 +1,29 @@
+nav {
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: 45% auto auto;
+  align-items: center;
+  .nav-menu {
+    a {
+      text-decoration: none;
+      margin: 0 16px;
+      color: #174135;
+    }
+    a:first-of-type {
+      margin: 0 16px 0px 0px;
+    }
+    a.active {
+      padding: 8px 16px;
+      color: #fff;
+      background-color: #174135;
+    }
+  }
+  .icon_row {
+    justify-self: flex-end;
+    a {
+      margin: 0 8px;
+    }
+  }
+}

@@ -1,17 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
 @font-face {
   font-family: TTnorms;
-  src: url(../src/assets/Fonts/TTNorms-Black.otf),
+  src: url(../src/assets/Fonts/TTNorms-Regular.otf),
+    url(../src/assets/Fonts/TTNorms-Thin.otf);
+}
+/* url(../src/assets/Fonts/TTNorms-Black.otf),
     url(../src/assets/Fonts/TTNorms-Bold.otf),
     url(../src/assets/Fonts/TTNorms-ExtraBold.otf),
     url(../src/assets/Fonts/TTNorms-ExtraLight.otf),
     url(../src/assets/Fonts/TTNorms-Heavy.otf),
-    url(../src/assets/Fonts/TTNorms-Light.otf),
-    url(../src/assets/Fonts/TTNorms-Regular.otf),
-    url(../src/assets/Fonts/TTNorms-Thin.otf);
-}
+    url(../src/assets/Fonts/TTNorms-Light.otf), */
 body {
   margin: 0;
   padding: 0;
   width: 100%;
+  font-family: "Nunito", sans-serif;
+  color: #0d1c17;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3 {
+  font-family: "TTnorms";
+}
+/* General Styles */
+.cart_logo {
+  padding: 4px;
+  background-color: #1f443a;
 }
