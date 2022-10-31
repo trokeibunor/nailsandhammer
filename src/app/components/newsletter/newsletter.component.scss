@@ -1,0 +1,39 @@
+.newsletter {
+  background-color: #deefea;
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h3 {
+    font-size: 28px;
+  }
+  p {
+    margin: 1rem 0px;
+    width: 30%;
+    line-height: 140%;
+    text-align: center;
+    font-size: 14px;
+  }
+  form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    input[type="email"] {
+      padding: 10.5px 16px;
+      background-color: #1f443a00;
+      outline: none;
+      border: 1px solid #1f443a;
+      width: 25%;
+    }
+    input[type="submit"] {
+      background-color: #1f443a;
+      color: #fff;
+      padding: 12px 18px;
+      border: none;
+      outline: none;
+    }
+  }
+}

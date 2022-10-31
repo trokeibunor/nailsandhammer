@@ -1,0 +1,75 @@
+footer {
+  background-color: #104436;
+  color: #fff;
+  width: 100%;
+  padding: 3rem 0px;
+  .topFooter {
+    width: 90%;
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 15% 15% 15% 20%;
+    .tpIntro {
+      p#topper {
+        font-family: "TTnorms", sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        color: #44c2a0;
+        line-height: 70%;
+        span {
+          color: #28715d;
+        }
+      }
+      p#location {
+        font-size: 14px;
+        color: #fff;
+        margin-top: 2.5rem;
+      }
+    }
+    .link_container {
+      display: flex;
+      flex-direction: column;
+      .linkHeader {
+        font-size: 16px;
+        font-weight: 700;
+      }
+      .lcLinks {
+        margin-top: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        .lclink {
+          text-decoration: none;
+          color: #fff;
+          font-size: 14px;
+          font-weight: 400;
+          margin: 8px 0px;
+          display: flex;
+          align-items: center;
+          img {
+            margin-right: 4px;
+          }
+        }
+      }
+    }
+  }
+  .bottomFooter {
+    width: 90%;
+    margin: 2rem auto 0;
+    display: flex;
+    justify-content: space-between;
+    .social_links {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      a {
+        margin: 0px 4px;
+        img {
+          width: 18px;
+          height: 18px;
+        }
+      }
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+}
